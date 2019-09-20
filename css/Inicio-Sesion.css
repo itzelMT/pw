@@ -1,0 +1,12 @@
+.container{
+    background-color: #000000bd!important; 
+    position: absolute;
+    margin: 50px;
+    padding: 100px;
+    left: 25%;
+    width: 50%!important;
+}
+.form-box{
+    color:white!important;
+ 
+}

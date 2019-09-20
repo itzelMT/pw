@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LALLY ZEADA | Carrito</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/inicio.css">
+  <link rel="stylesheet" href="css/carrito.css">
+</head>
+
+<body background="img/istockphoto-1031313700-1024x1024.jpg">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#"></a>
+        <a href="inicio.html"><img src="img/logo_lallyzeada.png" width="150" height="110"></a>
+    
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Inicio.html">
+                  <FONT size=5>Inicio</font>
+                </a>
+              </li>
+          <li class="nav-item">
+            <div class="container">
+              <a class="nav-link dropdown-toggle" href="dropdown" data-toggle="dropdown">
+                <FONT size=5>|&nbsp;&nbsp;&nbsp;&nbsp;Categorías</font>
+              </a>
+              <div class="dropdown">
+                <div class="dropdown-menu">
+    
+                  <a class="dropdown-item" href="Busqueda.html">Romance</a>
+                  <a class="dropdown-item" href="Busqueda.html">Misterio</a>
+                  <a class="dropdown-item" href="Busqueda.html">Terror</a>
+                  <a class="dropdown-item" href="Busqueda.html">Comedia</a>
+                  <a class="dropdown-item" href="Busqueda.html">Acción</a>
+                  <a class="dropdown-item" href="Busqueda.html">Drama</a>
+                  <a class="dropdown-item" href="Busqueda.html">Infantiles</a>
+    
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Cuenta.html">
+              <FONT size=5>|&nbsp;&nbsp;&nbsp;&nbsp;Mi cuenta</font>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registro.html">
+              <FONT size=5>|&nbsp;&nbsp;&nbsp;&nbsp;Registro</font>
+            </a>
+          </li>
+          <li>
+            <nav class="navbar-bus navbar-expand-sm">
+                <form class="form-inline" action="Busqueda.html">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-success" type="submit" ><img src="img/btn-lup.jpg" width="30" height="20"></button>
+              </form>
+            </nav>
+          </li>
+        </ul>
+        <nav class="img-carrito">
+          <a href="carrito.html"><img src="img/carrito.png" width="50" height="50"></a>;
+        </nav>
+      </nav>
+
+      <div class="container carrito-wrapper mt-5">
+          <div class="row">
+              <div class="col-12">
+                  <table class="table table-hover">
+                      <thead>
+                          <tr>
+                              <th>Libro</th>
+                              <th>Cantidad</th>
+                              <th class="text-center">Precio</th>
+                              <th class="text-center">Total</th>
+                              <th> </th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td class="col-sm-8 col-md-6">
+                              <div class="media">
+                                  <a class="thumbnail pull-left" href="#"> <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                                  <div class="media-body">
+                                      <h4 class="media-heading"><a href="#">Nombre del Libro</a></h4>
+                                      <h5 class="media-heading"> by <a href="#">Autor</a></h5>
+                                  </div>
+                              </div></td>
+                              <td class="col-sm-1 col-md-1" style="text-align: center">
+                              <input type="email" class="form-control" id="exampleInputEmail1" value="3">
+                              </td>
+                              <td class="col-sm-1 col-md-1 text-center"><strong>$80.87</strong></td>
+                              <td class="col-sm-1 col-md-1 text-center"><strong>$280.61</strong></td>
+                              <td class="col-sm-1 col-md-1">
+                              <button type="button" class="btn btn-danger">
+                                  <span></span> Quitar
+                              </button></td>
+                          </tr>
+                          <tr>
+                              <td class="col-md-6">
+                              <div class="media">
+                                  <a class="thumbnail pull-left" href="#"> <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                                  <div class="media-body">
+                                      <h4 class="media-heading"><a href="#">Nombre del Libro</a></h4>
+                                      <h5 class="media-heading"> by <a href="#">Autor</a></h5>
+                                  </div>
+                              </div></td>
+                              <td class="col-md-1" style="text-align: center">
+                              <input type="email" class="form-control" id="exampleInputEmail1" value="2">
+                              </td>
+                              <td class="col-md-1 text-center"><strong>$80.99</strong></td>
+                              <td class="col-md-1 text-center"><strong>$180.98</strong></td>
+                              <td class="col-md-1">
+                              <button type="button" class="btn btn-danger">
+                                  <span></span> Quitar
+                              </button></td>
+                          </tr>
+                          <tr>
+                              <td>   </td>
+                              <td>   </td>
+                              <td>   </td>
+                              <td><h5>Subtotal</h5></td>
+                              <td class="text-right"><h5><strong>$480.59</strong></h5></td>
+                          </tr>
+                          <tr>
+                              <td>   </td>
+                              <td>   </td>
+                              <td>   </td>
+                              <td><h5>Estimated shipping</h5></td>
+                              <td class="text-right"><h5><strong>$120.94</strong></h5></td>
+                          </tr>
+                          <tr>
+                              <td>   </td>
+                              <td>   </td>
+                              <td>   </td>
+                              <td><h3>Total</h3></td>
+                              <td class="text-right"><h3><strong>$610.53</strong></h3></td>
+                          </tr>
+                          <tr>
+                              <td>   </td>
+                              <td>   </td>
+                              <td>   </td>
+                              <td>
+                              <button type="button" class="btn btn-default">
+                                  <span></span> Seguir comprando
+                              </button></td>
+                              <td>
+                              <button type="button" class="btn btn-success">
+                                  Ir a pagar</span>
+                              </button></td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

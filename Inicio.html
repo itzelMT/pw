@@ -10,9 +10,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/inicio.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <style>
     /* Make the image fully responsive */
     .carousel-inner img {
@@ -20,27 +17,63 @@
       height: 100%;
     }
   </style>
-  <title>Odio mi vida | This is not a meme</title>
+  <title>LALLY ZEADA | Inicio</title>
 </head>
 
-<body>
+<body background="img/istockphoto-1031313700-1024x1024.jpg">
   <!--navbar-->
-  <div class="container-fluid"> </div>
-
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-
-
     <a class="navbar-brand" href="#"></a>
-    <img src="logo_lallyzeada.png" width="50" height="50">
+    <a href="inicio.html"><img src="img/logo_lallyzeada.png" width="150" height="110"></a>
 
     <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="Inicio.html">
+              <FONT size=5>Inicio</font>
+            </a>
+          </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <div class="container">
+          <a class="nav-link dropdown-toggle" href="dropdown" data-toggle="dropdown">
+            <FONT size=5>|&nbsp;&nbsp;&nbsp;&nbsp;Categorías</font>
+          </a>
+          <div class="dropdown">
+            <div class="dropdown-menu">
+
+              <a class="dropdown-item" href="Busqueda.html">Romance</a>
+              <a class="dropdown-item" href="Busqueda.html">Misterio</a>
+              <a class="dropdown-item" href="Busqueda.html">Terror</a>
+              <a class="dropdown-item" href="Busqueda.html">Comedia</a>
+              <a class="dropdown-item" href="Busqueda.html">Acción</a>
+              <a class="dropdown-item" href="Busqueda.html">Drama</a>
+              <a class="dropdown-item" href="Busqueda.html">Infantiles</a>
+
+            </div>
+          </div>
+        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="Cuenta.html">
+          <FONT size=5>|&nbsp;&nbsp;&nbsp;&nbsp;Mi cuenta</font>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="registro.html">
+          <FONT size=5>|&nbsp;&nbsp;&nbsp;&nbsp;Registro</font>
+        </a>
+      </li>
+      <li>
+        <nav class="navbar-bus navbar-expand-sm">
+            <form class="form-inline" action="Busqueda.html">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success" type="submit" ><img src="img/btn-lup.jpg" width="30" height="20"></button>
+          </form>
+        </nav>
       </li>
     </ul>
+    <nav class="img-carrito">
+      <a href="carrito.html"><img src="img/carrito.png" width="50" height="50"></a>;
+    </nav>
   </nav>
 
 
@@ -76,44 +109,169 @@
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
-    <!--card -->
+  </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width:400px">
-            <img class="card-img-top" src="libros/p01.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-              <a href="#" class="btn btn-primary">See Profile</a>
-            </div>
+  <!--card -->
+  <div class="container-fluid px-0">
+    <div class="row">
+      <div class="col-4">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="libros/p01.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">El Beso más pequeño</h4>
+            <p class="card-text" align="justify">¿Eres de los que creen que el amor mueve montañas?
+              ¿Que nuestro destino amoroso está por encima de nuestra voluntad?
+              ¿Te parece que una historia de amor tiene que vencer todo tipo de obstáculos?</p>
+            <a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver más -></a>
           </div>
         </div>
-        <div class="col">
-            <div class="card" style="width:400px">
-              <img class="card-img-top" src="libros/p01.jpg" alt="Card image" style="width:100%">
-              <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <a href="#" class="btn btn-primary">See Profile</a>
-              </div>
-            </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="libros/p02.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">El extraño caso de Dr. Jekyll y Mr. Hyde </h4>
+            <p class="card-text" align="justify">El extraño caso de Dr. Jekyll y Mr. Hyde, la clásica novela del
+              escritor escocés
+              Robert Louis Stevenson, es un relato lleno de misterio que guarda entre sus líneas una pregunta
+              fundamental del ser humano: ¿Qué es el mal?¿somos por naturaleza buenos…o malos?</p>
+            <a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver más -></a>
           </div>
-          <div class="col">
-              <div class="card" style="width:400px">
-                <img class="card-img-top" src="libros/p01.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                  <a href="#" class="btn btn-primary">See Profile</a>
-                </div>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="libros/p03.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">El Perfume</h4>
+            <p class="card-text" align="justify">Con su increíble talento por discernir las esencias, Jean-Baptiste
+              Grenouille se
+              convierte en el aprendiz de un perfumista en la Francia del siglo XVIII. Obsesionado con capturar un
+              elusivo aroma, la esencia de una joven mujer, Baptiste se convierte en un asesino en serie que
+              aterroriza a las familias del país.</p>
+            <a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver más -></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="libros/p04.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Demian</h4>
+            <p class="card-text" align="justify">La historia de la juventud de Emil Sinclair, es una novela que relata
+              la niñez hasta la madurez de este complicado personaje del escritor
+              alemán Hermann Hesse. </p>
+            <a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver más -></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="libros/p05.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Mil Noches Sin Ti</h4>
+            <p class="card-text" align="justify">Tras un paréntesis en Rusia, para Sofia ha llegado el momento de poner
+              orden a su
+              vida sentimental. Ya no puede seguir huyendo de su pasado, de la soledad de su matrimonio, ni de la
+              historia pasional y rota con Tancredi, y decide regresar a Roma.</p>
+            <a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver más -></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="libros/p06.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title" align="center">El Señor de los anillos: la Comunidad del Anillo</h4>
+            <p class="card-text" align="justify">Frodo Bolsón es un hobbit al que su tío Bilbo hace portador del
+              poderoso Anillo
+              Único, capaz de otorgar un poder ilimitado al que la posea, con la finalidad de destruirlo. Sin embargo,
+              fuerzas malignas muy poderosas quieren arrebatárselo.</p>
+            <a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver más -></a>
+          </div>
+        </div>
       </div>
       <br>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Nombre del libro</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <!-- Coursel -->
+            <div class="container-fluid px-0">
+              <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel2" data-slide-to="1"></li>
+                  <li data-target="#myCarousel2" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/libro1.JPG" alt="Los Angeles" width="800" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/libro2.JPG" alt="Chicago" width="800" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/libro3.JPG" alt="New York" width="800" height="500">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#myCarousel2" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel2" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+            </div>
+            <div class="modal-text">
+              <p align="center">Sinopsis del libro<br>
+                Precio
+              </p>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" id="btn-carrito" class="btn btn-secondary" data-dismiss="modal">Agregar al
+                carrito</button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
 
     </div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="inicio.js"></script>
+
+
 </body>
 
 </html>

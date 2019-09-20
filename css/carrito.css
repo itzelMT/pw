@@ -1,0 +1,13 @@
+.carrito-wrapper {
+    background-color: #000000bd!important;
+    color: white;
+}
+
+.table thead tr th,
+.table tbody tr td {
+    color: white;
+}
+
+a {
+    color: #d0adb8d6!important;
+}

@@ -1,3 +1,4 @@
+$(document).ready(function(){
 // Activate Carousel
 $("#myCarousel").carousel();
 
@@ -10,3 +11,8 @@ $(".item").click(function(){
 $(".carousel-control-prev").click(function(){
   $("#myCarousel").carousel("prev");
 });
+$("#btn-carrito").click(function(){
+  alert("Agregado al carrito correctamente");
+});
+});
+
